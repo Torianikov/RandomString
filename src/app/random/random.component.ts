@@ -41,7 +41,6 @@ export class RandomComponent implements OnInit {
           timeout: 3000
         });
     }
-
     return this.string;
   }
 

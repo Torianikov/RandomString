@@ -1,4 +1,4 @@
-.constainer{
+main{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -9,7 +9,7 @@
   margin-left: 1%;
   background: #f6f6f6;
   border-radius: 10%;
-  font-size: 2.5em;
+  font-size: 3.5em;
   font-family: 'Times New Roman', Times, serif;
   border: 1px solid #cecece;
   text-align: center;
