@@ -1,0 +1,35 @@
+.constainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.symbol{
+  width: 100px;
+  height: 100px;
+  margin-left: 1%;
+  background: #f6f6f6;
+  border-radius: 10%;
+  font-size: 2.5em;
+  font-family: 'Times New Roman', Times, serif;
+  border: 1px solid #cecece;
+  text-align: center;
+}
+
+h1{
+  margin: 3%;
+  text-align: center;
+}
+
+.btn{
+
+  position: absolute;
+  margin-top: 3%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+flash-messages{
+  text-align: center;
+  font-size: 1.5em;
+}

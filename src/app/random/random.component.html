@@ -1,0 +1,14 @@
+<h1>Генератор случайних строк</h1>
+<flash-messages></flash-messages>
+<div class="constainer">
+  <div class = 'symbol' id = 'symbol_1'></div>
+  <div class = 'symbol' id = 'symbol_2'></div>
+  <div class = 'symbol' id = 'symbol_3'></div>
+  <div class = 'symbol' id = 'symbol_4'></div>
+  <div class = 'symbol' id = 'symbol_5'></div>
+
+</div>
+<button *ngIf= 'active_button; else active'(click) = 'random()' class = 'btn btn-outline-success'> Создать строку</button>
+<ng-template #active>
+  <button (click) = 'stop()' class = 'btn btn-outline-success'> Стоп</button>
+</ng-template>
